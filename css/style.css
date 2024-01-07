@@ -1,0 +1,37 @@
+/*le style de police globale de notre page et autres regles generale*/
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@400;700;900 & display=swap');
+ /*nos articles dans le panier */
+ .panier1 {
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /*le champs de saisie */
+  input[type="number"] {
+    width: 40px;
+   border-radius: 10px;
+  }
+  .btn-incre {
+    border-radius: 10px;
+  }
+  .btn-decre {
+    border-radius: 10px;
+  }
+  .validerachat {
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--noir);
+    background-color: var(--primaire);
+  }
+  .validerachat:hover{
+    background-color: greenyellow;
+  }
+
+  .panier1 .image img {
+    width: 293px;
+    height: 270px;
+  }
+
